@@ -3,6 +3,7 @@ import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import React, { useRef } from 'react';
 import 'locomotive-scroll/dist/locomotive-scroll.css';
 import Navbar from './components/Navbar';
+import About from './components/About';
 import Footer from './components/Footer';
 import '@fontsource/freehand';
 
@@ -29,6 +30,7 @@ function App() {
     >
       <main data-scroll-container ref={containerRef}>
         <Navbar/>
+        <About/>
         <Footer/>
       </main>
     </LocomotiveScrollProvider>
