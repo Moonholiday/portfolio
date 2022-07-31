@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow:hidden;
+  font-family: 'Freehand', cursive;
+  background-color: #141d2b;
+  color: #fff;
+}
+
+nav {
+  position: relative;
+  min-height: 200vh;
+  overflow: hidden;
+
+  .logo {
+    display: inline-block;
+    margin: 10px;
+    font-size:2em;
+    cursor: pointer;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    font-size: 2em;
+    float: right;
+  }
+
+  li {
+    display: inline-block;
+    margin: 10px;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+.footer {
+  ul {
+    text-align: center;
+    list-style-type: none;
+    font-size: 2em;
+    li {
+      display: inline-block;
+      margin: 10px;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}

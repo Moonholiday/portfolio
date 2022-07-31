@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  font-family: "Freehand", cursive;
+  background-color: #141d2b;
+  color: #fff;
+}
+
+nav {
+  position: relative;
+  min-height: 200vh;
+  overflow: hidden;
+}
+nav .logo {
+  display: inline-block;
+  margin: 10px;
+  font-size: 2em;
+  cursor: pointer;
+}
+nav .logo a {
+  text-decoration: none;
+  color: white;
+}
+nav ul {
+  list-style-type: none;
+  font-size: 2em;
+  float: right;
+}
+nav li {
+  display: inline-block;
+  margin: 10px;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer ul {
+  text-align: center;
+  list-style-type: none;
+  font-size: 2em;
+}
+.footer ul li {
+  display: inline-block;
+  margin: 10px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
