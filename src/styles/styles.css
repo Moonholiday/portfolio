@@ -4,7 +4,6 @@
 }
 
 body {
-  overflow: hidden;
   font-family: "Freehand", cursive;
   background-color: #141d2b;
   color: #fff;
@@ -12,13 +11,12 @@ body {
 
 nav {
   position: relative;
-  min-height: 200vh;
   overflow: hidden;
 }
 nav .logo {
   display: inline-block;
   margin: 10px;
-  font-size: 2em;
+  font-size: 3em;
   cursor: pointer;
 }
 nav .logo a {
@@ -27,7 +25,7 @@ nav .logo a {
 }
 nav ul {
   list-style-type: none;
-  font-size: 2em;
+  font-size: 3em;
   float: right;
 }
 nav li {
@@ -42,7 +40,7 @@ nav li a {
 .footer ul {
   text-align: center;
   list-style-type: none;
-  font-size: 2em;
+  font-size: 3em;
 }
 .footer ul li {
   display: inline-block;
@@ -54,7 +52,7 @@ nav li a {
 }
 
 .about {
-  color: white;
+  font-size: 3em;
 }
 
 /*# sourceMappingURL=styles.css.map */

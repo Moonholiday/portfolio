@@ -1,13 +1,14 @@
+
 import React from 'react';
 import '../styles/styles.css'
 
-function About () {
+function Projects () {
   return (
     <div className='about' data-scroll-section>
-      <h1>About me</h1>
-      <p>Hi I am Sakshyam, </p>
+      <h1>Projects</h1>
+      <p>fresla</p>
     </div>
   )
 }
 
-export default About;
+export default Projects;

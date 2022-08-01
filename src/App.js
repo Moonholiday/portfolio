@@ -3,8 +3,11 @@ import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import React, { useRef } from 'react';
 import 'locomotive-scroll/dist/locomotive-scroll.css';
 import Navbar from './components/Navbar';
-import About from './components/About';
 import Footer from './components/Footer';
+import About from './sections/About';
+import Contact from './sections/Contact';
+import Projects from './sections/Projects';
+import More from './sections/More';
 import '@fontsource/freehand';
 
 function App() {
@@ -16,6 +19,7 @@ function App() {
       options={
         {
           smooth: true,
+          multiplier: 0.7,
           // ... all available Locomotive Scroll instance options 
         }
       }
@@ -31,6 +35,9 @@ function App() {
       <main data-scroll-container ref={containerRef}>
         <Navbar/>
         <About/>
+        <Contact/>
+        <Projects/>
+        <More/>
         <Footer/>
       </main>
     </LocomotiveScrollProvider>

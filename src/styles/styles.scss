@@ -4,7 +4,6 @@
 }
 
 body {
-  overflow:hidden;
   font-family: 'Freehand', cursive;
   background-color: #141d2b;
   color: #fff;
@@ -12,13 +11,11 @@ body {
 
 nav {
   position: relative;
-  min-height: 200vh;
   overflow: hidden;
-
   .logo {
     display: inline-block;
     margin: 10px;
-    font-size:2em;
+    font-size:3em;
     cursor: pointer;
     a {
       text-decoration: none;
@@ -28,7 +25,7 @@ nav {
 
   ul {
     list-style-type: none;
-    font-size: 2em;
+    font-size: 3em;
     float: right;
   }
 
@@ -47,7 +44,7 @@ nav {
   ul {
     text-align: center;
     list-style-type: none;
-    font-size: 2em;
+    font-size: 3em;
     li {
       display: inline-block;
       margin: 10px;
@@ -60,5 +57,5 @@ nav {
 }
 
 .about {
-  color:white;
+  font-size: 3em;
 }

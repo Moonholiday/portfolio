@@ -1,13 +1,13 @@
 import React from 'react';
 import '../styles/styles.css'
 
-function About () {
+function Contact () {
   return (
     <div className='about' data-scroll-section>
-      <h1>About me</h1>
-      <p>Hi I am Sakshyam, </p>
+      <h1>Contact me</h1>
+      <p>727moonholiday@gmail.com</p>
     </div>
   )
 }
 
-export default About;
+export default Contact;
