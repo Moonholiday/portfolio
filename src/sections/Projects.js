@@ -4,7 +4,7 @@ import '../styles/styles.css'
 
 function Projects () {
   return (
-    <div className='about' data-scroll-section>
+    <div className='sections' data-scroll-section>
       <h1>Projects</h1>
       <p>fresla</p>
     </div>
