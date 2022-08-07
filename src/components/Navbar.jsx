@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Navbar () {
   return (
     <nav className="navbar" data-scroll-section>
-      <h1 className="logo"><Link to="/"><img src={logo} /></Link></h1>
+      <h1 className="logo"><Link to="/"><img src={logo} alt='Sakshyam'/></Link></h1>
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>

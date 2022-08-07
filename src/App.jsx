@@ -10,7 +10,6 @@ import Contact from './sections/Contact';
 import Projects from './sections/Projects';
 import More from './sections/More';
 import '@fontsource/freehand';
-import ReactDom from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -39,12 +38,13 @@ function App() {
         <BrowserRouter>
           <Navbar/>
           <Routes>
-            <Route path='/home' element={<Home/>}/>
+            <Route path='/' element={<Home/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/projects' element={<Projects/>}/>
             <Route path='/more' element={<More/>}/>
           </Routes>
+          <Footer/>
         </BrowserRouter>
       </main>
     </LocomotiveScrollProvider>

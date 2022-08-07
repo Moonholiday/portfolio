@@ -6,7 +6,7 @@ function Projects () {
   return (
     <div className='sections' data-scroll-section>
       <h1>Projects</h1>
-      <p>fresla</p>
+      <p>:)))))</p>
     </div>
   )
 }
