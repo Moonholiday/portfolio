@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Freehand', cursive;
+  font-family: 'Open Sans', sans-serif;
   background-color: #141d2b;
   color: #fff;
 }
@@ -12,26 +12,25 @@ body {
 nav {
   position: relative;
   overflow: hidden;
+  font-size: 20px;
   .logo {
     display: inline-block;
     margin: 10px;
-    font-size:3em;
     cursor: pointer;
-    a {
-      text-decoration: none;
-      color: white;
+    img {
+      width: 60px;
     }
   }
 
   ul {
     list-style-type: none;
-    font-size: 3em;
     float: right;
   }
 
   li {
     display: inline-block;
     margin: 10px;
+    padding: 10px;
 
     a {
       text-decoration: none;
@@ -41,10 +40,14 @@ nav {
 }
 
 .footer {
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
   ul {
-    text-align: center;
     list-style-type: none;
-    font-size: 3em;
+    font-size: 20px;
     li {
       display: inline-block;
       margin: 10px;
@@ -57,7 +60,14 @@ nav {
 }
 
 .sections {
-  font-size: 3em;
+  font-size: 20px;
+  padding: 10px;
+  h1 {
+    padding: 10px;
+  }
+  p {
+    padding: 10px;
+  }
 }
 
 .about {

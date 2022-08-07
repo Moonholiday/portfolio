@@ -4,11 +4,14 @@ import React, { useRef } from 'react';
 import 'locomotive-scroll/dist/locomotive-scroll.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Home from './sections/Home';
 import About from './sections/About';
 import Contact from './sections/Contact';
 import Projects from './sections/Projects';
 import More from './sections/More';
 import '@fontsource/freehand';
+import ReactDom from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
 
@@ -33,12 +36,16 @@ function App() {
       containerRef={containerRef}
     >
       <main data-scroll-container ref={containerRef}>
-        <Navbar/>
-        <About/>
-        <Contact/>
-        <Projects/>
-        <More/>
-        <Footer/>
+        <BrowserRouter>
+          <Navbar/>
+          <Routes>
+            <Route path='/home' element={<Home/>}/>
+            <Route path='/about' element={<About/>}/>
+            <Route path='/contact' element={<Contact/>}/>
+            <Route path='/projects' element={<Projects/>}/>
+            <Route path='/more' element={<More/>}/>
+          </Routes>
+        </BrowserRouter>
       </main>
     </LocomotiveScrollProvider>
   );
