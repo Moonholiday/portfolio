@@ -10,36 +10,44 @@ body {
 }
 
 nav {
+  display:flex;
   position: relative;
-  overflow: hidden;
+  overflow:hidden;
   font-size: 20px;
-  margin: 20px;
+  margin: 17px;
+  padding: 5px;
+  align-items:center;
   .logo {
     display: inline-block;
-    margin: 10px;
     cursor: pointer;
+    margin-right: 40px;
     img {
       width: 60px;
     }
   }
 
   ul {
-    list-style-type: none;
-    float: right;
-  }
-
-  li {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-
-    a {
-      text-decoration: none;
-      color: white;
+    li {
+      list-style-type: none;
+      margin: 15px;
+      display: inline-block;
+      a {
+        text-decoration: none;
+        color: white;
+      }
     }
   }
-}
+  .right {
+    margin-left:auto;
+    order: 2;
+    li {
+      img {
+        width: 40px;
+      }
+    }
+  }
 
+}
 .footer {
   overflow: hidden;
   left: 0;
@@ -63,20 +71,13 @@ nav {
 
 .sections {
   font-size: 20px;
+  font-family: monospace; 
   padding: 10px;
   margin: 5em;
   h1 {
     padding: 10px;
-  }
-  p {
-    padding: 10px;
-    margin: 10em;
+    font-size: 60px;
+    color: #9fef00;
   }
 }
 
-.about {
-  background: #9fef00;
-  color: black;
-  margin: 10px;
-  border-radius: 10px;
-}

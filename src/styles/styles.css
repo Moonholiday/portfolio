@@ -10,31 +10,37 @@ body {
 }
 
 nav {
+  display: flex;
   position: relative;
   overflow: hidden;
   font-size: 20px;
-  margin: 20px;
+  margin: 17px;
+  padding: 5px;
+  align-items: center;
 }
 nav .logo {
   display: inline-block;
-  margin: 10px;
   cursor: pointer;
+  margin-right: 40px;
 }
 nav .logo img {
   width: 60px;
 }
-nav ul {
+nav ul li {
   list-style-type: none;
-  float: right;
-}
-nav li {
+  margin: 15px;
   display: inline-block;
-  margin: 10px;
-  padding: 10px;
 }
-nav li a {
+nav ul li a {
   text-decoration: none;
   color: white;
+}
+nav .right {
+  margin-left: auto;
+  order: 2;
+}
+nav .right li img {
+  width: 40px;
 }
 
 .footer {
@@ -60,22 +66,14 @@ nav li a {
 
 .sections {
   font-size: 20px;
+  font-family: monospace;
   padding: 10px;
   margin: 5em;
 }
 .sections h1 {
   padding: 10px;
-}
-.sections p {
-  padding: 10px;
-  margin: 10em;
-}
-
-.about {
-  background: #9fef00;
-  color: black;
-  margin: 10px;
-  border-radius: 10px;
+  font-size: 60px;
+  color: #9fef00;
 }
 
 /*# sourceMappingURL=styles.css.map */
