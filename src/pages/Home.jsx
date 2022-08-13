@@ -3,7 +3,7 @@ import React from 'react';
 import '../styles/styles.css';
 import About from '../sections/About';
 import Contact from '../sections/Contact';
-import Projects from '../pages/Projects';
+import Projects from '../sections/Projects';
 function Home () {
 
 

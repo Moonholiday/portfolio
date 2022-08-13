@@ -11,9 +11,10 @@ function Navbar () {
     <nav className="navbar" data-scroll-section>
       <Link to="home" activeClassName='active' offset={-300} spy={true} smooth={true}  duration={500} className='logo'><img src={logo} alt='Sakshyam'/></Link>
       <ul className='left'>
-        <li><Link to="about" activeClassName='active' offset={-300} spy={true} smooth={true} duration={500}>About</Link></li>
-        <li><Link to="projects" activeClassName='active' offset={-300} spy={true} smooth={true}  duration={500}>Projects</Link></li>
-        <li><Link to="contact" activeClassName='active' offset={-300} spy={true} smooth={true}  duration={500}>Contact</Link></li>
+        <li><Link to="about" activeClassName='active' offset={-300} spy={true} smooth={true} duration={250}>About</Link></li>
+        <li><Link to="projects" activeClassName='active' offset={-300} spy={true} smooth={true}  duration={250}>Projects</Link></li>
+        <li><Link to="contact" activeClassName='active' offset={-300} spy={true} smooth={true}  duration={250}>Contact</Link></li>
+        <li><Link to="/" activeClassName='active' offset={-300} spy={true} smooth={true}  duration={250}>Resume</Link></li>
       </ul>
       <ul className='right'>
         <li><a href="https://github.com/Moonholiday" target='_blank'><img src={github} alt='github'/></a></li>

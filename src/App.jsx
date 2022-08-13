@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './sections/About';
 import Contact from './sections/Contact';
-import Projects from './pages/Projects';
+import Projects from './sections/Projects';
 import '@fontsource/freehand';
 import ReactDom from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
