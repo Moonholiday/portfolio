@@ -13,10 +13,11 @@ function Navbar () {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="/projects">Projects</Link></li>
       </ul>
       <ul className='right'>
-        <li><a href="www.google.com"><img src={github} alt='github'/></a></li>
-        <li><Link to="/contact"><img src={linkedin} alt='linkedin'/></Link></li>
+        <li><a href="https://github.com/Moonholiday" target='_blank'><img src={github} alt='github'/></a></li>
+        <li><a href="https://www.linkedin.com/in/sakshyam-shrestha-b00a25243/" target='_blank'><img src={linkedin} alt='linkedin'/></a></li>
       </ul>
     </nav>
   )
