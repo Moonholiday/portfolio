@@ -4,19 +4,29 @@
 }
 
 body {
+  width: 100%;
+  margin: 0;
   font-family: 'Open Sans', sans-serif;
   background-color: #141d2b;
   color: #fff;
 }
 
+.active {
+  color: #fff;
+  font-size: 25px;
+}
+
 nav {
+  background-color: #141d2b;
+  width: 100%;
+  z-index: 1000;
+  position:fixed;
   display:flex;
-  position: relative;
-  overflow:hidden;
+  top: 0;
+  left:0;
   font-size: 20px;
-  margin: 17px;
-  padding: 5px;
   align-items:center;
+  padding: 20px;
   .logo {
     display: inline-block;
     cursor: pointer;
@@ -32,13 +42,15 @@ nav {
       margin: 15px;
       display: inline-block;
       a {
+        cursor: pointer;
         text-decoration: none;
-        color: white;
+        color: grey;
       }
     }
   }
   .right {
     margin-left:auto;
+    margin-right: 40px;
     order: 2;
     li {
       img {
@@ -46,12 +58,9 @@ nav {
       }
     }
   }
-
 }
+
 .footer {
-  overflow: hidden;
-  left: 0;
-  bottom: 0;
   width: 100%;
   text-align: center;
   padding-bottom: 50px;
@@ -72,11 +81,24 @@ nav {
 .sections {
   font-size: 20px;
   font-family: monospace; 
-  padding: 10px;
-  margin: 5em;
   h1 {
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
     font-size: 60px;
     color: #9fef00;
   }
+  span {
+    padding: 20px;
+    margin: 20px;
+  }
 }
+
+.container {
+  margin-top: 100px;
+  padding: 4em;
+  height: 100%;
+  section {
+    height: 100vh;
+  }
+}
+

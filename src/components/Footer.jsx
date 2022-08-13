@@ -1,14 +1,13 @@
 import React from 'react'
 import '../styles/styles.css'
+import { Link } from 'react-router-dom'
 
 function Footer () {
   return (
     <div className="footer" data-scroll-section>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Projects</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/projects">Projects</Link></li>
       </ul>
     </div>
   )

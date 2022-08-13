@@ -3,10 +3,10 @@ import '../styles/styles.css'
 
 function About () {
   return (
-    <div className='sections' data-scroll-section>
+    <div id='about' className='sections' data-scroll-section>
       <div className='about'>
         <h1>About me</h1>
-        <p>Hi I am Sakshyam, </p>
+        <span>Hi I am Sakshyam, </span>
       </div>
     </div>
   )
