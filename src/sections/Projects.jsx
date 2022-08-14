@@ -19,7 +19,7 @@ function Projects () {
             <p>img</p>
           </div>
           <div>
-            <h3></h3>
+            <h3>Games</h3>
             <p></p>
             <p>img</p>
           </div>
