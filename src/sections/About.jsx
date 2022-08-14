@@ -6,14 +6,21 @@ function About () {
     <div id='about' className='sections' data-scroll-section>
       <div className='about'>
         <h1>About me</h1>
-        <span>Hi I am Sakshyam, </span>
+        <span>Hi I am Sakshyam, Im a very tech enthusiastic person with growing motivation to learn.</span>
         <div className='interest'>
-          
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
+          <div>
+            <h3>Machine Learning</h3>
+            <p>I have worked with researchers to apply machine learning algorithms.</p>
+          </div>
+          <div>
+            <h3>Cloud Computing</h3>
+            <p>I am familiar with various cloud computing technologies.</p>
+          </div>
+          <div>
+            <h3>Fullstack</h3>
+            <p>I regularly implement new fullstack technlogies.</p>
+          </div>
         </div>
-        
       </div>
     </div>
   )

@@ -87,26 +87,56 @@ nav {
     font-size: 60px;
     color: #9fef00;
   }
-  span {
-    padding: 20px;
-    margin: 20px;
-  }
 }
 
 .container {
   margin-top: 100px;
   padding: 4em;
-  height: 100%;
   section {
     height: 100vh;
+    span {
+      margin: 20px;
+    }
   }
 }
 
 .interest {
-  background-color:grey;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 20px;
   div {
-    margin: 40px;
     padding: 20px;
+    margin: 20px;
   }
+}
+
+@media (max-width: 1000px) {
+  .interest {
+    flex-direction: column;
+  }
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  form {
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    width: 60%;
+    input, select, label {
+      padding: 7px;
+      margin: 7px;
+    }
+  }
+    button {
+      width: 30%;
+      padding: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 3em;
+    }
+
 }
