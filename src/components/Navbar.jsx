@@ -1,23 +1,23 @@
 import React from 'react';
-import '../styles/styles.css';
+import { Link } from 'react-router-dom';
 import logo from '../assets/sakshyam.png';
 import github from '../assets/github.png';
 import linkedin from '../assets/linkedin.png';
-import { Link } from 'react-scroll';
+import '../styles/index.css';
 
-function Navbar () {
+function Navbar() {
   return (
-    <nav className="navbar" data-scroll-section>
-      <Link to="home" activeClassName='active' offset={-300} spy={true} smooth={true}  duration={500} className='logo'><img src={logo} alt='Sakshyam'/></Link>
-      <ul className='left'>
-        <li><Link to="about" activeClassName='active' offset={-300} spy={true} smooth={true} duration={250}>About</Link></li>
-        <li><Link to="projects" activeClassName='active' offset={-300} spy={true} smooth={true}  duration={250}>Projects</Link></li>
-        <li><Link to="contact" activeClassName='active' offset={-300} spy={true} smooth={true}  duration={250}>Contact</Link></li>
-        <li><Link to="/" activeClassName='active' offset={-300} spy={true} smooth={true}  duration={250}>Resume</Link></li>
+    <nav className="bg-black flex items-center justify-between">
+      <Link to="/"><img className="w-10 m-6" src={logo} alt='Sakshyam' /></Link>
+      <ul className='inline-flex'>
+        <li><Link className="text-white m-5" to="about">About</Link></li>
+        <li><Link className="text-white m-5" to="projects">Projects</Link></li>
+        <li><Link className="text-white m-5" to="contact">Contact</Link></li>
+        <li><Link className="text-white m-5" to="/">Resume</Link></li>
       </ul>
-      <ul className='right'>
-        <li><a href="https://github.com/Moonholiday" target='_blank' rel='noreferrer'><img src={github} alt='github'/></a></li>
-        <li><a href="https://www.linkedin.com/in/sakshyam-shrestha-b00a25243/" target='_blank' rel='noreferrer'><img src={linkedin} alt='linkedin'/></a></li>
+      <ul className='inline-flex'>
+        <li><a href="https://github.com/Moonholiday" target='_blank' rel='noreferrer'><img className="w-10 m-5" src={github} alt='github' /></a></li>
+        <li><a href="https://www.linkedin.com/in/sakshyam-shrestha-b00a25243/" target='_blank' rel='noreferrer'><img className="w-10 m-5" src={linkedin} alt='linkedin' /></a></li>
       </ul>
     </nav>
   )

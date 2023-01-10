@@ -1,28 +1,13 @@
-
 import React from 'react';
-import '../styles/styles.css';
-import About from '../sections/About';
-import Contact from '../sections/Contact';
-import Projects from '../sections/Projects';
-function Home () {
 
-
+function Home() {
   return (
-    <div id='home' className='sections'>
+    <div id='home' className='p-24 bg-slate-300 h-screen'>
       <div className='container'>
-        <section> 
+        <div className='text-xl'>
           <h1> Sakshyam Shrestha </h1>
           <span>Machine Learning. Cybersecurity. Python. Fullstack</span>
-        </section>
-        <section>
-          <About/>
-        </section>
-        <section>
-          <Projects/>
-        </section>
-        <section>
-          <Contact/>
-        </section>
+        </div>
       </div>
     </div>
   )
